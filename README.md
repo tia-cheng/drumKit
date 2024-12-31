@@ -10,7 +10,7 @@ A simple and interactive web-based drum kit that allows you to play different dr
 
 ## How to Use
 
-1. **Open the Drum Kit**: Go to [https://tttxcheng.github.io/drumKit/](https://tttxcheng.github.io/drumKit/).
+1. **Open the Drum Kit**: Go to [https://tia-cheng.github.io/drumKit/](https://tia-cheng.github.io/drumKit/).
 2. **Play Sounds**:
    - **Click** on the drum pads with your mouse.
    - **Press keys** on your keyboard. Each drum pad is associated with a specific key (displayed on each pad).
