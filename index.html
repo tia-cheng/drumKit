@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
   <meta charset="utf-8">
   <title>Drum Kit</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
-
 <body>
-
   <h1 id="title">Drum 🥁 Kit</h1>
-  <div class="set">
-    <button class="w drum">w</button>
-    <button class="a drum">a</button>
-    <button class="s drum">s</button>
-    <button class="d drum">d</button>
-    <button class="j drum">j</button>
-    <button class="k drum">k</button>
-    <button class="l drum">l</button>
+  <div class="controls">
+    <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1">
+    <label for="volume-control">Volume</label>
+    <button id="loop-mode">Toggle Loop</button>
+    <label for="custom-sound" class="file-button">Choose File</label>
+    <input type="file" id="custom-sound" accept="audio/*" hidden>
   </div>
-
-
-  <footer>
-    Made by tia in the bedroom.
-  </footer>
+  <div class="set">
+    <button class="w drum">
+      <img src="images/tom1.png" alt="Tom 1">
+      <span>w</span>
+    </button>
+    <button class="a drum">
+      <img src="images/tom2.png" alt="Tom 2">
+      <span>a</span>
+    </button>
+    <button class="s drum">
+      <img src="images/tom3.png" alt="Tom 3">
+      <span>s</span>
+    </button>
+    <button class="d drum">
+      <img src="images/tom4.png" alt="Tom 4">
+      <span>d</span>
+    </button>
+    <button class="j drum">
+      <img src="images/snare.png" alt="Snare">
+      <span>j</span>
+    </button>
+    <button class="k drum">
+      <img src="images/kick.png" alt="Kick">
+      <span>k</span>
+    </button>
+    <button class="l drum">
+      <img src="images/crash.png" alt="Crash">
+      <span>l</span>
+    </button>
+  </div>
+  <footer>Made by tia in the bedroom.</footer>
   <script src="index.js" charset="utf-8"></script>
 </body>
-
 </html>

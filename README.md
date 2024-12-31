@@ -1,19 +1,17 @@
-# Drum Kit
+# Drum Kit 🥁
 
-A simple and interactive web-based drum kit that allows you to play different drum sounds using your mouse.
+A fun and interactive Drum Kit project built with **HTML**, **CSS**, and **JavaScript**. This project allows users to play drum sounds either by clicking buttons or pressing corresponding keys. It also includes advanced features like volume control, loop mode, and custom sound uploads.
 
-## Features
-
-- **Interactive Interface**: Click on the drum pads to play different drum sounds.
-- **Responsive Design**: The drum kit is designed to work seamlessly on both desktop and mobile devices.
-- **Smooth Animations**: Visual feedback with smooth animations whenever a drum pad is played.
+## Preview
+![Drum Kit Demo](./images/demo.png)
 
 ## How to Use
-
-1. **Open the Drum Kit**: Go to [Drum Kit](https://tia-cheng.github.io/drumKit/).
-2. **Play Sounds**:
-   - **Click** on the drum pads with your mouse.
-   - **Press keys** on your keyboard. Each drum pad is associated with a specific key (displayed on each pad).
+1. Open [Drum Kit Website](https://tia-cheng.github.io/drumKit/)in your favorite browser.
+2. Interact with the drum kit:
+   - Click drum buttons or press keys (`w`, `a`, `s`, `d`, `j`, `k`, `l`).
+   - Use the volume slider to adjust the sound.
+   - Enable "Loop Mode" to loop drum beats.
+   - Upload custom sounds using the "Choose File" button.
 
 ## Keyboard Mapping
 
@@ -27,27 +25,32 @@ A simple and interactive web-based drum kit that allows you to play different dr
 
 ## Technologies Used
 
-- **HTML**: Structure of the web page.
-- **CSS**: Styling and layout.
-- **JavaScript**: Adding interactivity and handling user input.
+- **HTML**: Structure and layout.
+- **CSS**: Styling with gradients, hover effects, and animations.
+- **JavaScript**: Dynamic interactions and sound management.
 
-## Installation and Setup
 
-If you want to run this project locally, follow these steps:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/tttxcheng/drumKit.git
 
-2. **Navigate to the project directory**:
-   ```bash
-   cd drumKit
-3. **Open index.html in your web browser**
+## New Features
+
+### 1. Volume Control
+- Adjust the sound volume using the slider provided in the control panel.
+
+### 2. Loop Mode
+- Toggle looping with the "Toggle Loop" button.
+- When active, the drum sounds are automatically played in a loop.
+
+### 3. Custom Sound Upload
+- Use the "Choose File" button to upload your own audio file.
+- The uploaded file is played immediately upon selection.
+
+## Future Enhancements
+
+- Add more drum sounds.
+- Introduce tempo control for loop mode.
+- Add keyboard shortcuts for volume and loop toggling.
 
 ## Contribution
 
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
-
-
-
-
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request!
